@@ -24,7 +24,7 @@ function Cards() {
                         <h1 className="text-2xl font-semibold">{product.name}</h1>
                         <h1 className="text-xl font-bold text-green-600">${product.price}</h1>
                         <QuantitySelector />
-                        <button className='bg-blue-500 rounded-full py-1 px-4 text-white mt-3'>Add to Cart</button>
+                        <button className='bg-blue-500 rounded-full py-1 px-4 text-white mt-3'>Add to Cart sgfs</button>
                     </div>
                 </div>
             ))}
