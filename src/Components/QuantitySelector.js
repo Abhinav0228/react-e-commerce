@@ -1,9 +1,7 @@
 import { useState } from "react";
 
 function QuantitySelector () {
-    const [count, setCount] = useState(1)
-
-    
+    const [count, setCount] = useState(0)
 
     const inc = () => {
         setCount(count + 1)
