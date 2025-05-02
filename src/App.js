@@ -4,6 +4,7 @@ import CardsContainer from './Components/CardsContainer';
 import Header from './Components/Header';
 import HomePage from './Components/HomePage';
 import Todo from './Components/Todo';
+import LearningApi  from './Components/LearningApi';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <HomePage />
     <CardsContainer/>
     <Todo/>
+    <LearningApi/>
     </>
   );
 }
